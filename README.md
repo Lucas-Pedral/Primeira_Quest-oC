@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Primeira_questa
+//Primeira
 int main() {
     float idade;
     
@@ -24,7 +24,7 @@ int main() {
     return 0;
 }
 
-//Segunda_Questão
+//Segunda
 
 int main(){
     
@@ -42,4 +42,27 @@ int main(){
     
     return 0;
     
+}
+
+//Terceira
+int main(){
+    
+  float nota;
+  
+  printf("Qual a sua nota ");
+  scanf("%f", &nota);
+  
+  if(nota >= 7 ){
+  printf("Aprovado");
+  }
+  
+  else if (nota >= 5){
+      printf("Recuperação");
+  }
+
+else {
+    printf("Reprovado");
+}
+    
+return 0;
 }
