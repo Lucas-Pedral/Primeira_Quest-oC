@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-\\Primeira Questão
+//Primeira_questa
 int main() {
     float idade;
     
@@ -24,7 +24,7 @@ int main() {
     return 0;
 }
 
-\\Segunda Questão
+//Segunda_Questão
 
 int main(){
     
