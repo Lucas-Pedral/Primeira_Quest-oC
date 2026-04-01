@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+\\Primeira Questão
 int main() {
     float idade;
     
@@ -21,4 +22,24 @@ int main() {
 
 
     return 0;
+}
+
+\\Segunda Questão
+
+int main(){
+    
+ float valor;
+ 
+ printf(" Qual o valor da compra ");
+ scanf("%f", &valor);
+ 
+ if(valor > 100){
+     printf("Possui desconto");
+ }
+ else {
+     printf ("Não possui desconto");
+ }
+    
+    return 0;
+    
 }
