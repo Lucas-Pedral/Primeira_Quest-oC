@@ -1,23 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    int idade;
+    float idade;
     
-    printf("Qual a sua idade ");
-    scanf("%d", &idade);
+    printf("Qual o número ");
+    scanf("%f", &idade);
+    printf("%.1f", idade);
     
-    if(idade >= 18){
+    if(idade >= 18 ){
         printf("Pode entrar");
     }
     
-    else if(idade >= 16){
+    else if(idade >= 16 ) {
         printf("Pode entrar com responsavel");
     }
-    
     
     else{
         printf("Não entra");
     }
+
 
     return 0;
 }
