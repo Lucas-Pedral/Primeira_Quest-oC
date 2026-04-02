@@ -66,3 +66,30 @@ else {
     
 return 0;
 }
+
+//Quarta
+int main() {
+      
+    int faixa;
+    printf("Escolha uma opção faixa ");
+    scanf("%d", &faixa);
+
+   if (faixa >= 1 && faixa <= 10 && faixa != 5) {
+       printf("A");
+}
+
+else if(faixa >= 1 && faixa <= 20 && faixa != 5){
+    printf("B");
+}
+    
+  else if(faixa >= 1 && faixa <= 30 && faixa != 5){
+      printf("C");
+  }  
+  
+  else{
+      printf("O número 5 não entra");
+  }
+  
+  return 0; 
+}
+
